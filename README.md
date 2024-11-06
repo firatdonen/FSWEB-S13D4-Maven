@@ -56,13 +56,21 @@ distance()= 0.0
 *  org.example paketi ```Player``` isimli bir sınıf oluşturunuz.
 * Sınıfın 3 tane değişkeni olmalı ```String name``` ```int healthPercentage``` ```Weapon weapon```
 * Weapon org.example paketi altında bir enum olmalı.
-* Weapon enumının değerlerinden bir tanesi ```SWORD``` olmalı. İsteğinize göre başka değerlerde ekleyebilirsiniz.
-* Her weapon için bir adet ```int damage``` ve ```double attackSpeed``` değeri tanımlanmalı. Aynı zamana bu değişkenler için getter metodları da yazılmalı.
+* Weapon enumının değerlerinden bir tanesi ```SWORD``` olmalı. İsteğinize göre başka değerlerde 
+* ekleyebilirsiniz.
+* Her weapon için bir adet ```int damage``` ve ```double attackSpeed``` değeri tanımlanmalı. 
+* Aynı zamana bu değişkenler için getter metodları da yazılmalı.
 * Tüm değişkenlere sadece bu sınıf içerisinden ulaşılabilinmeli.
 * Değişkenler için getter ve setter metodları kesinlikle TANIMLANMAMALI.
 * Sınıfın tek bir ```constructor``` metodu olmalı ve bu 3 değeri set edebilmeli.
-* player objesi oluşturulduğu anda eğer healthPercentage 100'den büyük verildiyse, 100 değerine set edilmeli. Eğer healthPercentage 0'dan küçük verildiyse 0'a set edilmeli.
+* player objesi oluşturulduğu anda eğer healthPercentage 100'den büyük verildiyse, 
+* 100 değerine set edilmeli. Eğer healthPercentage 0'dan küçük verildiyse 0'a set edilmeli.
 * Player sınıfı için 3 adet metod tanımlamalıyız.
 * ```healthRemaining``` metodu healthPercentage değerini dönmeli.
-* ```loseHealth(int damage)``` metodu damage değeri kadar healthPercentage değerinden düşmeli. Oyuncunun canı bir şekilde 0'değerinin altına düşerse, ```System.out.println(name + " player has been knocked out of game");``` değerini ekrana basmalı. 
-*  ```restoreHealth(int healthPotion)``` metodu healthPotion miktarı kadar healthPercentage değerine ekleme yapmalı. Oyunucunun canı 100 değerinden yüksek bir değere çıkarsa tekrar geri 100 değerine eşitlenmeli.
+* ```loseHealth(int damage)``` metodu damage değeri kadar healthPercentage değerinden düşmeli.
+* Oyuncunun canı bir şekilde 0'değerinin altına düşerse, ```System.out.println(name +
+* " player has been knocked out of game");```
+* değerini ekrana basmalı. 
+*  ```restoreHealth(int healthPotion)``` metodu healthPotion miktarı kadar healthPercentage 
+* değerine ekleme yapmalı. Oyunucunun canı 100 değerinden yüksek bir değere çıkarsa tekrar 
+* geri 100 değerine eşitlenmeli.
